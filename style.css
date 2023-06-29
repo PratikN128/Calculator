@@ -1,0 +1,106 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-image:url( vecteezy_banner-template-background-geometri-for-background_12921076.jpg);
+}
+
+.calculator {
+  width: 300px;
+  margin: 50px auto;
+  background-color: #f4f4f4;
+  background-image:url(earth-g50becde53_1280.jpg);
+  padding: 10px;
+  border-radius: 10px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+}
+
+input[type="text"] {
+  width: 92%;
+  height: 60px;
+  font-size: 28px;
+  text-align: right;
+  padding: 10px;
+  margin-bottom: 20px;
+  background-color:azure;
+  border: none;
+  border-radius: 8px;
+  box-shadow: inset 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+table {
+  width: 100%;
+}
+
+button {
+  width: 70px;
+  height: 70px;
+  font-size: 24px;
+  background-color: #4a4a4a;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+button:hover {
+  background-color: #555;
+}
+
+button:active {
+  background-color: #333;
+}
+
+.operator {
+  background-color: #f05f40;
+}
+
+.operator:hover {
+  background-color: #ff785c;
+}
+
+.operator:active {
+  background-color: #d63619;
+}
+
+#clear-btn{
+    background-color:darkolivegreen;
+}
+
+#clear-btn:hover{
+    background-color:darkseagreen;
+}
+
+#clear-btn:active{
+    background-color:aliceblue;
+}
+
+#delete-btn{
+    background-color: firebrick;
+}
+
+#delete-btn:hover {
+  background-color:chocolate;
+}
+
+#delete-btn:active {
+  background-color:brown;
+}
+
+#equals-btn {
+  height: 140px;
+  background-color: #1abc9c;
+}
+
+#equals-btn:hover {
+  background-color: #48d2b9;
+}
+
+#equals-btn:active {
+  background-color: #118271;
+}
+
+#zero-btn {
+  width: 145px;
+  background-color: #4a4a4a;
+}
